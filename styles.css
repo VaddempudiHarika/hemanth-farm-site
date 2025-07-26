@@ -1,0 +1,107 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f7ef;
+  margin: 0;
+  padding: 0;
+  color: #2e2e1f;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(to right, #7fbf50, #a4d96c);
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: rgba(255,255,255,0.2);
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+h2 {
+  color: #4a8e34;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.03);
+}
+
+.crop-card {
+  background-color: #fff;
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 320px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.crop-card:hover {
+  transform: translateY(-5px);
+}
+
+.crop-card h3 {
+  color: #5b9443;
+  margin-top: 0.5rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 0.6rem 0;
+  font-size: 1rem;
+}
+
+a {
+  color: #2c7a34;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #3c6937;
+  color: white;
+  text-align: center;
+  padding: 1.2rem;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
